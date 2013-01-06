@@ -7,6 +7,8 @@ int main(void)
 	char operation;
 	int num;
 	/* header print */
+	while(1 == 1)
+	{
 	printf("Enter the operation you would like to use\n");
 	scanf("%c", &operation);
 	
@@ -56,7 +58,7 @@ int main(void)
 		scanf("%f",&a[1]);
 		printf("The answer is ", a[0] / a[1]);
 	}
-
+	}
 }
 
 
